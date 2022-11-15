@@ -174,10 +174,10 @@ div .tema_linea {
 div .tema_linea:hover{
     transform: translate(15px,15px);
 }
-.tema_linea img {
+img .tema_linea {
     height: 45px;
 }
-.tema_linea p {
+p .tema_linea {
     margin: 5px;
     border: 0px;
     background-color: rgba(0, 0, 0, 0%);

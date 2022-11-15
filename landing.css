@@ -170,9 +170,8 @@ div .tema_linea {
     color: white;
     width:auto;
     justify-content: center;
-    transform: translate(15px 15px);
 }
-div .tema_linea{
+div .tema_linea:hover{
     transform: translate(15px 15px);
 }
 .tema_linea img {

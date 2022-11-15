@@ -170,7 +170,7 @@ div .tema_linea {
     color: white;
     width:auto;
     justify-content: center;
-    transform: translate 200ms ease;
+    transform: translate(15px 15px);
 }
 div .tema_linea{
     transform: translate(15px 15px);

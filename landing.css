@@ -155,7 +155,7 @@ li:hover{
 .canciones{
     display:grid;
     width: 1030px;
-    height: 498px;
+    height: 450px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin: 0 auto;
@@ -178,4 +178,7 @@ div .tema_linea {
     margin: 5px;
     border: 0px;
     background-color: rgba(0, 0, 0, 0%);
+}
+.tema_linea div:hover{
+    transition: translate(15px 15px);
 }

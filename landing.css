@@ -170,6 +170,10 @@ div .tema_linea {
     color: white;
     width:auto;
     justify-content: center;
+    transition: translate 200ms ease;
+}
+div .tema_linea{
+    transform: translate(15px 15px);
 }
 .tema_linea img {
     height: 45px;
@@ -178,7 +182,4 @@ div .tema_linea {
     margin: 5px;
     border: 0px;
     background-color: rgba(0, 0, 0, 0%);
-}
-.tema_linea div:hover{
-    transition: translate(15px 15px);
 }

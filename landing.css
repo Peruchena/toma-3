@@ -172,7 +172,7 @@ div .tema_linea {
     justify-content: center;
 }
 div .tema_linea:hover{
-    transform: translate(15px);
+    transform: translate(15px,15px);
 }
 .tema_linea img {
     height: 45px;

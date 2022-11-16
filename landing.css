@@ -155,7 +155,6 @@ li:hover{
 .canciones{
     display:grid;
     width: 1030px;
-    height: 450px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin: 0 auto;

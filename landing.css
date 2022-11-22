@@ -180,3 +180,31 @@ p .tema_linea {
     border: 0px;
     background-color: rgba(0, 0, 0, 0%);
 }
+@media(max-width:768px){
+    .lista{
+        width: 20%;
+    }
+    .canciones{
+        display: flex;
+        flex-direction: column;
+        width:350px;
+    }
+    img.tema_linea{
+        width:200px;
+        height: 200px;
+    }
+    input{
+        width:130px;
+    }
+    button{
+        display:none;
+    }
+    input{
+        display:none;
+    }
+
+}
+img.tema_linea{
+    height: 399px;
+    width: 402px;
+}

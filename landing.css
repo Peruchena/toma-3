@@ -167,12 +167,10 @@ div .tema_linea {
     margin:5px 12px 5px 12px;
     align-items: center;
     color: white;
-    width:auto;
+    width: auto;
     justify-content: center;
 }
-div .tema_linea:hover{
-    transform: translate(15px,15px);
-}
+
 img .tema_linea {
     height: 45px;
 }

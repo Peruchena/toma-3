@@ -160,7 +160,7 @@ li:hover{
     margin: 0 auto;
     justify-content: space-around;
 }
-div .tema_linea {
+div.tema_linea {
     display: flex;
     background-color: rgba(26,26,26,75%);
     border: solid black;
@@ -172,26 +172,29 @@ div .tema_linea {
     justify-content: center;
     flex-direction: column;
 }
-img .tema_linea {
-    height: 45px;
-}
-p .tema_linea {
+p.tema_linea {
     margin: 5px;
     border: 0px;
-    background-color: rgba(0, 0, 0, 0%);
+    background-color: rgba(0, 0, 0, 65%);
+    border: solid black;
 }
-@media(max-width:768px){
+img.tema_linea{
+    height: 350px;
+    width: 350px;
+    padding: 15px;
+}
+@media(max-width:375px){
     .lista{
         width: 20%;
     }
     .canciones{
         display: flex;
         flex-direction: column;
-        width:350px;
+        width: 175px;
     }
     img.tema_linea{
-        width:200px;
-        height: 200px;
+        width:140px;
+        height: 140px;
     }
     input{
         width:130px;
@@ -202,9 +205,25 @@ p .tema_linea {
     input{
         display:none;
     }
-
+    .nav1{
+        width:auto;
+        justify-content: normal;
+    }
+    #logo{
+        align-self: flex-start;
+        position: fixed;
+        top:0;
+        left:0;
+    }
+    .listado{
+        position: fixed;
+        top: calc(110/2-36.44/2);
+        right: 35px;
+    }
+    p.tema_linea{
+        font-size: small;
+    }
 }
-img.tema_linea{
-    height: 399px;
-    width: 402px;
+form{
+    display: inline-block;
 }

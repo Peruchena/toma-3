@@ -8,9 +8,9 @@ h1{
 }
 h2{
     display: block;
+    text-align: center;
 }
-.tema1{
-    align-items: left;
+.tema{
     background-color: #d9d9d9;
     width: 423.44px;
     height: 565px;
@@ -21,57 +21,16 @@ h2{
     display: inline-block;
     box-sizing: content-box;
 }
-.img1{
+.img{
     width: 423.44px;
     height: 400px;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
-.par1{
+.par{
     max-width: 500px;
 }
-.tema2{
-    align-self: center;
-    background-color: #d9d9d9;
-    width: 423.44px;
-    height: 565px;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    display: inline-block;
-    margin: 25px;
-    box-sizing: content-box;
-}
-.img2{
-    width: 423.44px;
-    height: 400px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-.par2{
-    max-width: 500px;
-}
-.tema3{
-    align-self: right;
-    background-color: #d9d9d9;
-    width: 423.44px;
-    height: 565px;
-    margin: 25px;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    display: inline-block;
-    box-sizing: content-box;
-}
-.img3{
-    width: 423.44px;
-    height: 400px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-.par3{
-    max-width: 500px;
-}
+
 audio{
     width: 423.44px;
     height: 45px;
@@ -149,9 +108,6 @@ button{
     width: 12%;
     overflow: visible;
 }
-li:hover{
-    list-style-image: url(pacman_hover.ico);
-}
 .canciones{
     display:grid;
     width: 700px;
@@ -183,7 +139,13 @@ img.tema_linea{
     width: 350px;
     padding: 15px;
 }
-@media(max-width:375px){
+form{
+    display: inline-block;
+}
+li:hover{
+    list-style-image: url(pacman_hover.ico)
+}
+@media(max-width:720px){
     .lista{
         width: 20%;
     }
@@ -224,6 +186,4 @@ img.tema_linea{
         font-size: small;
     }
 }
-form{
-    display: inline-block;
-}
+

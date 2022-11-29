@@ -77,11 +77,15 @@ button{
     border: 0ch;
 }
 .login{
-    border: solid blue 3px;
+    border: solid whitesmoke 0.5px;
     border-radius: 5px;
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0%);
     color: white;
     align-self: flex-end;
+}
+a#login{
+    padding: 2px;
+    color:aquamarine;
 }
 .nav1{
     background-color: rgba(38, 38, 38, 0.7);

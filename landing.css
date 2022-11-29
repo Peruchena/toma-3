@@ -30,7 +30,6 @@ h2{
 .par{
     max-width: 500px;
 }
-
 audio{
     width: 423.44px;
     height: 45px;
@@ -68,7 +67,6 @@ body{
     justify-content: center;
     height:110px;
     width: 100%;
-    float:inline-end;
 }
 a{
     text-decoration: none;
@@ -155,7 +153,7 @@ li:hover{
 
 @media(max-width:720px){
     .lista{
-        width: 25%;
+        width: fit-content;
     }
     .canciones{
         display: flex;
@@ -196,5 +194,19 @@ li:hover{
     header{
         height:110px;
     }
-
+    .tema{
+        width: 317.58px;
+        height: 450px;
+    }
+    .img{
+        width: 317.58px;
+        height: 280px;
+    }
+    img{
+        max-width: 317.58px;
+        max-height: 280px;
+    }
+    audio{
+        width:317.58px;
+    }
 }

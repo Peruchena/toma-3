@@ -1,18 +1,21 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-h2{
+
+h2 {
     display: block;
     text-align: center;
 }
-.tema{
+
+.tema {
     background-color: #d9d9d9;
-    width: 423.44px;
+    max-width: 423.44px;
     height: 565px;
     margin: 25px;
     border: 2px solid black;
@@ -21,73 +24,88 @@ h2{
     display: inline-block;
     box-sizing: content-box;
 }
-.img{
+
+.img {
     width: 423.44px;
     height: 400px;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
-.par{
+
+.par {
     max-width: 500px;
 }
-audio{
+
+audio {
     width: 423.44px;
     height: 45px;
 }
-.main{
+
+.main {
     display: block;
 }
-body{
-    background-image: url(BG.jpg);
+
+body {
+    background-image: url(media/BG.jpg);
     margin: 0%;
 }
-.cards{
+
+.cards {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
-.button1{
+
+.button1 {
     width: 110px;
     height: 106px;
 }
-.button2{
+
+.button2 {
     width: 110px;
     height: 106px;
 }
-.button3{
+
+.button3 {
     width: 110px;
     height: 106px;
 }
-.footer{
+
+.footer {
     display: flex;
     align-content: center;
     align-items: center;
-    background-color:rgba(38, 38, 38, 0.7);
+    background-color: rgba(38, 38, 38, 0.7);
     justify-content: center;
-    height:110px;
+    height: 110px;
     width: 100%;
 }
-a{
+
+a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-button{
+
+button {
     background: none;
     border: 0ch;
 }
-.login{
+
+.login {
     border: solid whitesmoke 0.5px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0%);
     color: white;
     align-self: flex-end;
 }
-a#login{
+
+a#login {
     padding: 2px;
-    color:aquamarine;
+    color: aquamarine;
 }
-.nav1{
+
+.nav1 {
     background-color: rgba(38, 38, 38, 0.7);
     position: sticky;
     top: 0;
@@ -100,117 +118,143 @@ a#login{
     justify-content: space-between;
     align-items: center;
 }
-.listado{
+
+.listado {
     color: white;
 }
+
 /*.canciones{
     display: grid
 }*/
-.lista{
-    list-style-image: url(pacman.ico);
+.lista {
+    list-style-image: url(media/pacman.ico);
     list-style-position: inside;
     margin: auto;
     width: 12%;
     overflow: visible;
 }
-.canciones{
-    display:grid;
+
+.canciones {
+    display: grid;
     width: 700px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     justify-content: space-around;
 }
+
 div.tema_linea {
     display: flex;
-    background-color: rgba(26,26,26,75%);
+    background-color: rgba(26, 26, 26, 75%);
     border: solid black;
-    border-radius:2px;
-    margin:5px 12px 5px 12px;
+    border-radius: 2px;
+    margin: 5px 12px 5px 12px;
     align-items: center;
     color: white;
     width: auto;
     justify-content: center;
     flex-direction: column;
 }
+
 p.tema_linea {
     margin: 5px;
     border: 0px;
     background-color: rgba(0, 0, 0, 65%);
     border: solid black;
 }
-img.tema_linea{
+
+img.tema_linea {
     height: 350px;
     width: 350px;
     padding: 15px;
 }
-form{
+
+form {
     display: inline-block;
 }
-li:hover{
-    list-style-image: url(pacman_hover.ico)
+
+li:hover {
+    list-style-image: url(media/pacman_hover.ico)
 }
-#agradecimientos{
-    color:white;
+
+#agradecimientos {
+    color: white;
 }
 
 
-@media(max-width:720px){
-    .lista{
+@media(max-width:720px) {
+    .lista {
         width: fit-content;
     }
-    .canciones{
+
+    .canciones {
         display: flex;
         flex-direction: column;
         width: 175px;
     }
-    img.tema_linea{
-        width:140px;
+
+    img.tema_linea {
+        width: 140px;
         height: 140px;
     }
-    input{
-        width:130px;
+
+    input {
+        width: 130px;
     }
-    button{
-        display:none;
+
+    button {
+        display: none;
     }
-    input{
-        display:none;
+
+    input {
+        display: none;
     }
-    .nav1{
-        width:auto;
+
+    .nav1 {
+        width: auto;
         justify-content: normal;
     }
-    #logo{
+
+    #logo {
         align-self: flex-start;
         position: fixed;
-        top:0;
-        left:0;
+        top: 0;
+        left: 0;
     }
-    .listado{
+
+    .listado {
         position: fixed;
         top: 36.78px;
         right: 35px;
     }
-    p.tema_linea{
+
+    p.tema_linea {
         font-size: small;
     }
-    header{
-        height:110px;
+
+    header {
+        height: 110px;
     }
-    .tema{
+
+    .tema {
         width: 317.58px;
         height: 450px;
     }
-    .img{
+
+    .img {
         width: 317.58px;
         height: 280px;
     }
-    img{
+
+    img {
         max-width: 317.58px;
         max-height: 280px;
     }
-    audio{
-        width:317.58px;
+
+    audio {
+        width: 317.58px;
     }
+}
+.spacing{
+    width: 42.67px;
 }

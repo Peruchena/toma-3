@@ -1,140 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BA Records</title>
-        <link href="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/favicon%20(1).ico?raw=true" rel="shortcut icon" type="image/x-icon">
-        <link rel="stylesheet" href="landing.css">
-        <meta name="description" content="BA Records es un sitio web en el cual se recomienda música de todo tipo y para todos los gustos.">
-        <meta property="og:type" content="article">
-        <meta property="og:title" content="BA Records">
-        <meta property="og:description" content="BA Records es un sitio web en el cual se recomienda música de todo tipo y para todos los gustos.">
-        <meta property="og:image" content="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/no%20music%20no%20life.png?raw=true">
-        <meta property="og:url" content="https://peruchena.github.io/toma-3/ba_records.html">
 
-    </head>
-    <body>
-        <header class="nav1">
-            <div id="logo">
-                <a href="ba_records.html">
-                    <img src="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/no%20music%20no%20life.png?raw=true" alt="BA Records logo" height="106" width="110">
-                </a>
-            </div>
-            <nav>
-                <button type="button" class="login"> <a href="https://github.com/Peruchena/HTML" id="login">login</a></button>
-                <form>
-                    <input autocomplete="on" placeholder="Buscar una canción" type="search" >
-                </form>
-                <a href="generos.html" target="_self" class="listado">listado</a>
-            </nav> 
-        </header>
-        
-        <main>
-            <section class="main">
-                <h1>B.A Records</h1>
-                <h2>Canciones disponibles para su compra:</h2>
-            </section>
-        </main>
-        <div class="cards">
-                <div class="tema">
-                    <a href="https://www.youtube.com/watch?v=pXRviuL6vMY" target="_blank">
-                        <section>
-                            <article>
-                                <div class="img">
-                                    <img src="https://github.com/Peruchena/toma-3/blob/main/stressed%20out.jpg?raw=true" alt="Stressed Out por Twenty one Pilots" class="IDGAF" height="400" width="423.44">
-                                </div>
-                                <div class="audio">
-                                    <audio controls width="423.44px">
-                                        <source src="https://github.com/Peruchena/toma-3/blob/main/Stressed%20Out%20%5BOFFICIAL%20VIDEO.mp3?raw=true" type="audio/mp3">
-                                    </audio>
-                                </div>
-                                <div class="par">
-                                    <p>Stressed Out es la canción mas escuchada del album Blurryface de Twenty One Pilots. Lanzada en 2015, Forma parte del primer álbum de la historia en conseguir una certificación de oro en todas sus canciones.</p>
-                                </div>
-                            </article>
-                        </section>
-                    </a> 
-                </div> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BA Records</title>
+    <link href="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/favicon%20(1).ico?raw=true"
+        rel="shortcut icon" type="image/x-icon">
+
+    <meta name="description"
+        content="BA Records es un sitio web en el cual se recomienda música de todo tipo y para todos los gustos.">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="BA Records">
+    <meta property="og:description"
+        content="BA Records es un sitio web en el cual se recomienda música de todo tipo y para todos los gustos.">
+    <meta property="og:image"
+        content="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/no%20music%20no%20life.png?raw=true">
+    <meta property="og:url" content="https://peruchena.github.io/toma-3/ba_records.html">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="landing.css">
+</head>
+
+<body>
+    <header class="nav1">
+        <div id="logo">
+            <a href="ba_records.html">
+                <img src="media/no music no life.png"
+                    alt="BA Records logo" height="106" width="110">
             </a>
-            
-            <div class="tema">
-                <a href="https://www.youtube.com/watch?v=PEM0Vs8jf1w" target="_blank">
-                    <section>
-                        <article>
-                            <div class="img">
-                                <img src="golden hour.jpg" alt="Golden Hour por JVKE" height="400" width="423.44">
-                            </div>
-                            <div class="audio">
-                                <audio controls>
-                                    <source src="golden-hour-official-music-video.mp3" type="audio/mp3">
-                                </audio>
-                            </div>
-                            <div class="par">
-                                <p>Golden Hour es uno de los 3 sencillos que componen el álbum "this is what falling in love feels like", de JVKE, lanzado en 2022.<p>
-                            </div>
-                        </article>
-                    </section>
-                </a>
-            </div>
-            <div class="tema">
-                <a href="https://www.youtube.com/watch?v=gtPZ9W63g-o" target="_blank">
-                    <section>
-                        <article>
-                            <div class="img">
-                                <img src="another love.jpg" alt="Another Love por Tom Odell" height="400" width="423.44">
-                            </div>
-                            <div class="audio">
-                                <audio controls>
-                                    <source src="another-love-lyrics.mp3" type="audio/mp3">
-                                </audio>
-                            </div>
-                            <div class="par">
-                                <p>Another Love es la tercera canción del LP "Long Way Down" de Tom Odell. Posee más de 3 millones de visualizaciones en Youtube y Spotify</p>
-                            </div>
-                        </article>
-                    </section>
-                </a>
-            </div>
-            <div class="tema">    
-                <a href="https://www.youtube.com/watch?v=TfY8hR5frEQ" target="_blank">
-                    <section>
-                        <article>
-                            <div class="img">
-                                <img src="love grows.jpg" alt="Love Grows por Edison Lighthouse" height="400" width="423.44">
-                            </div>
-                            <div class="audio">
-                                <audio controls>
-                                    <source src="love-grows-where-my-rosemary-goes-official-video.mp3" type="audio/mp3">
-                                </audio>
-                            </div>
-                            <div class="par">
-                                <p>Love Grows (Where my Rosemary Goes) es el sencillo estrella del EP homónimo de Edison Lighthouse. Fue re-grabado y remasterizado en numerosas ocasiones, en casi todos los lanzamientos posteriores del artista.</p>
-                            </div>
-                        </article>
-                    </section>
-                </a>
-            </div>
-            <div class="tema">
-                <a href="https://www.youtube.com/watch?v=G2iKFUu1itI" target="_blank">
-                    <section>
-                        <article>
-                            <div class="img">
-                                <img src="hasta viejos.jpg" alt="Hasta Viejos por Sebastián Romero" height="400" width="423.44">
-                            </div>
-                            <div class="audio">
-                                <audio controls>
-                                    <source src="hasta-viejos-ft-les-cafeteres.mp3" type="audio/mp3">
-                                </audio>
-                            </div>
-                            <div class="par">
-                                <p>Hasta Viejos es un sencillo de Sebastián Romero, grabado en el 2022 en colaboración con Les Cafeteres.</p>
-                            </div>
-                        </article>
-                    </section>
-                </a>
-            </div>
         </div>
+        <nav>
+            <button type="button" class="login"> <a href="https://github.com/Peruchena/HTML"
+                    id="login">login</a></button>
+            <form>
+                <input autocomplete="on" placeholder="Buscar una canción" type="search">
+            </form>
+            <a href="generos.html" target="_self" class="listado">listado</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main ">
+            <h1>B.A Records</h1>
+            <h2>Canciones disponibles para su compra:</h2>
+        </section>
+    </main>
+    <button class="prevBtn">Prev</button>
+    <div class="cards">
+        
+        <div class="tema">
+            <a href="https://www.youtube.com/watch?v=pXRviuL6vMY" target="_blank">
+                <div class="img">
+                    <img src="media/stressed out.jpg"
+                        alt="Stressed Out por Twenty one Pilots" class="IDGAF" height="400" width="423.44">
+                </div>
+                <div class="paraudio">
+                    <div class="audio">
+                        <audio controls>
+                            <source
+                                src="media/Stressed Out [OFFICIAL VIDEO.mp3"
+                                type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div class="par">
+                        <p>Stressed Out es la canción mas escuchada del album Blurryface de Twenty One Pilots.
+                            Lanzada en
+                            2015, Forma parte del primer álbum de la historia en conseguir una certificación de oro
+                            en todas
+                            sus canciones.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="tema">
+            <a href="https://www.youtube.com/watch?v=PEM0Vs8jf1w" target="_blank">
+                <section>
+                    <article>
+                        <div class="img">
+                            <img src="media/golden hour.jpg" alt="Golden Hour por JVKE" height="400" width="423.44">
+                        </div>
+                        <div class="audio">
+                            <audio controls>
+                                <source src="media/golden-hour-official-music-video.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                        <div class="par">
+                            <p>Golden Hour es uno de los 3 sencillos que componen el álbum "this is what falling in
+                                love
+                                feels like", de JVKE, lanzado en 2022.
+                            <p>
+                        </div>
+                    </article>
+                </section>
+            </a>
+        </div>
+        <div class="tema">
+            <a href="https://www.youtube.com/watch?v=gtPZ9W63g-o" target="_blank">
+                <section>
+                    <article>
+                        <div class="img">
+                            <img src="media/another love.jpg" alt="Another Love por Tom Odell" height="400" width="423.44">
+                        </div>
+                        <div class="audio">
+                            <audio controls>
+                                <source src="media/another-love-lyrics.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                        <div class="par">
+                            <p>Another Love es la tercera canción del LP "Long Way Down" de Tom Odell. Posee más de
+                                3
+                                millones de visualizaciones en Youtube y Spotify</p>
+                        </div>
+                    </article>
+                </section>
+            </a>
+        </div>
+        <div class="tema">
+            <a href="https://www.youtube.com/watch?v=TfY8hR5frEQ" target="_blank">
+                <section>
+                    <article>
+                        <div class="img">
+                            <img src="media/love grows.jpg" alt="Love Grows por Edison Lighthouse" height="400"
+                                width="423.44">
+                        </div>
+                        <div class="audio">
+                            <audio controls>
+                                <source src="media/love-grows-where-my-rosemary-goes-official-video.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                        <div class="par">
+                            <p>Love Grows (Where my Rosemary Goes) es el sencillo estrella del EP homónimo de Edison
+                                Lighthouse. Fue re-grabado y remasterizado en numerosas ocasiones, en casi todos los
+                                lanzamientos posteriores del artista.</p>
+                        </div>
+                    </article>
+                </section>
+            </a>
+        </div>
+        <div class="tema">
+            <a href="https://www.youtube.com/watch?v=G2iKFUu1itI" target="_blank">
+                <section>
+                    <article>
+                        <div class="img">
+                            <img src="media/hasta viejos.jpg" alt="Hasta Viejos por Sebastián Romero" height="400"
+                                width="423.44">
+                        </div>
+                        <div class="audio">
+                            <audio controls>
+                                <source src="media/hasta-viejos-ft-les-cafeteres.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                        <div class="par">
+                            <p>Hasta Viejos es un sencillo de Sebastián Romero, grabado en el 2022 en colaboración
+                                con
+                                Les Cafeteres.</p>
+                        </div>
+                    </article>
+                </section>
+            </a>
+        </div>
+        
+    </div>
+    <button class="nextBtn">Next</button>
     <!--
         <footer class="footer">
             <div>
@@ -146,5 +174,9 @@
             </div>
         </footer>
     -->
-    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="js/slick_init.js"></script>
+</body>
+
 </html>
